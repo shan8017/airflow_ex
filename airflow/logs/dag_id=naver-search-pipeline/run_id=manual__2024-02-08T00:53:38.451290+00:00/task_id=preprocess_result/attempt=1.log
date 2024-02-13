@@ -1,0 +1,13 @@
+[2024-02-08T09:53:46.732+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.preprocess_result manual__2024-02-08T00:53:38.451290+00:00 [queued]>
+[2024-02-08T09:53:46.735+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.preprocess_result manual__2024-02-08T00:53:38.451290+00:00 [queued]>
+[2024-02-08T09:53:46.735+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-08T09:53:46.932+0900] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): preprocess_result> on 2024-02-08 00:53:38.451290+00:00
+[2024-02-08T09:53:46.939+0900] {standard_task_runner.py:57} INFO - Started process 192949 to run task
+[2024-02-08T09:53:46.945+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'preprocess_result', 'manual__2024-02-08T00:53:38.451290+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmpaluupjzx']
+[2024-02-08T09:53:46.946+0900] {standard_task_runner.py:85} INFO - Job 109: Subtask preprocess_result
+[2024-02-08T09:53:47.004+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.preprocess_result manual__2024-02-08T00:53:38.451290+00:00 [running]> on host localhost
+[2024-02-08T09:53:47.039+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='preprocess_result' AIRFLOW_CTX_EXECUTION_DATE='2024-02-08T00:53:38.451290+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-08T00:53:38.451290+00:00'
+[2024-02-08T09:53:47.045+0900] {python.py:183} INFO - Done. Returned value was: None
+[2024-02-08T09:53:47.048+0900] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=naver-search-pipeline, task_id=preprocess_result, execution_date=20240208T005338, start_date=20240208T005346, end_date=20240208T005347
+[2024-02-08T09:53:47.075+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-08T09:53:47.086+0900] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

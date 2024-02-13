@@ -1,0 +1,24 @@
+[2024-02-13T10:00:33.316+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.task_branch scheduled__2024-02-13T00:00:00+00:00 [queued]>
+[2024-02-13T10:00:33.319+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.task_branch scheduled__2024-02-13T00:00:00+00:00 [queued]>
+[2024-02-13T10:00:33.319+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-13T10:00:33.329+0900] {taskinstance.py:1327} INFO - Executing <Task(BranchPythonOperator): task_branch> on 2024-02-13 00:00:00+00:00
+[2024-02-13T10:00:33.331+0900] {standard_task_runner.py:57} INFO - Started process 272770 to run task
+[2024-02-13T10:00:33.333+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'task_branch', 'scheduled__2024-02-13T00:00:00+00:00', '--job-id', '128', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmpu84d9b59']
+[2024-02-13T10:00:33.334+0900] {standard_task_runner.py:85} INFO - Job 128: Subtask task_branch
+[2024-02-13T10:00:33.352+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.task_branch scheduled__2024-02-13T00:00:00+00:00 [running]> on host localhost
+[2024-02-13T10:00:33.385+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='task_branch' AIRFLOW_CTX_EXECUTION_DATE='2024-02-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-13T00:00:00+00:00'
+[2024-02-13T10:00:33.386+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 215, in execute
+    branch = super().execute(context)
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/shan/airflow/dags/naver_search_pipeline.py", line 21, in get_run_task
+    return reandom.choice([task_print_today.task_id, task_empty.task_id])
+NameError: name 'reandom' is not defined
+[2024-02-13T10:00:33.387+0900] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=naver-search-pipeline, task_id=task_branch, execution_date=20240213T000000, start_date=20240213T010033, end_date=20240213T010033
+[2024-02-13T10:00:33.395+0900] {standard_task_runner.py:109} ERROR - Failed to execute job 128 for task task_branch (name 'reandom' is not defined; 272770)
+[2024-02-13T10:00:33.424+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-02-13T10:00:33.439+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,15 @@
+[2024-02-07T18:02:05.956+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.chk_api_data manual__2024-02-07T09:02:00.360426+00:00 [queued]>
+[2024-02-07T18:02:05.959+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.chk_api_data manual__2024-02-07T09:02:00.360426+00:00 [queued]>
+[2024-02-07T18:02:05.959+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-07T18:02:05.969+0900] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): chk_api_data> on 2024-02-07 09:02:00.360426+00:00
+[2024-02-07T18:02:05.971+0900] {standard_task_runner.py:57} INFO - Started process 184650 to run task
+[2024-02-07T18:02:05.973+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'chk_api_data', 'manual__2024-02-07T09:02:00.360426+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmp25s69vtc']
+[2024-02-07T18:02:05.975+0900] {standard_task_runner.py:85} INFO - Job 85: Subtask chk_api_data
+[2024-02-07T18:02:06.006+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.chk_api_data manual__2024-02-07T09:02:00.360426+00:00 [running]> on host localhost
+[2024-02-07T18:02:06.040+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='chk_api_data' AIRFLOW_CTX_EXECUTION_DATE='2024-02-07T09:02:00.360426+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-07T09:02:00.360426+00:00'
+[2024-02-07T18:02:06.044+0900] {logging_mixin.py:150} INFO - []
+[2024-02-07T18:02:06.044+0900] {logging_mixin.py:150} INFO - Event created: {'message': '이상 이벤트 : 데이터의 길이가 10 이하입니다.', 'data_length': 0}
+[2024-02-07T18:02:06.044+0900] {python.py:183} INFO - Done. Returned value was: None
+[2024-02-07T18:02:06.047+0900] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=naver-search-pipeline, task_id=chk_api_data, execution_date=20240207T090200, start_date=20240207T090205, end_date=20240207T090206
+[2024-02-07T18:02:06.064+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-07T18:02:06.076+0900] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

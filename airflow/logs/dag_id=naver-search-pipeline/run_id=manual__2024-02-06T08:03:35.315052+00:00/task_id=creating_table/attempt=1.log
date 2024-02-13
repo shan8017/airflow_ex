@@ -1,0 +1,37 @@
+[2024-02-06T17:03:37.775+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.creating_table manual__2024-02-06T08:03:35.315052+00:00 [queued]>
+[2024-02-06T17:03:37.778+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.creating_table manual__2024-02-06T08:03:35.315052+00:00 [queued]>
+[2024-02-06T17:03:37.778+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-06T17:03:37.788+0900] {taskinstance.py:1327} INFO - Executing <Task(SqliteOperator): creating_table> on 2024-02-06 08:03:35.315052+00:00
+[2024-02-06T17:03:37.790+0900] {standard_task_runner.py:57} INFO - Started process 122894 to run task
+[2024-02-06T17:03:37.791+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'creating_table', 'manual__2024-02-06T08:03:35.315052+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmpis5grbg0']
+[2024-02-06T17:03:37.792+0900] {standard_task_runner.py:85} INFO - Job 5: Subtask creating_table
+[2024-02-06T17:03:37.810+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.creating_table manual__2024-02-06T08:03:35.315052+00:00 [running]> on host localhost
+[2024-02-06T17:03:37.845+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='creating_table' AIRFLOW_CTX_EXECUTION_DATE='2024-02-06T08:03:35.315052+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-06T08:03:35.315052+00:00'
+[2024-02-06T17:03:37.845+0900] {sql.py:265} INFO - Executing: 
+            CREATE TABLE IF NOT EXISTS naver_search_result(
+            title TEXT,
+            address TEXT,
+            category TEXT,
+            description TEXT,
+            link TEXT
+            )
+        
+[2024-02-06T17:03:37.849+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 266, in execute
+    hook = self.get_db_hook()
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 181, in get_db_hook
+    return self._hook
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/cached_property.py", line 36, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/providers/common/sql/operators/sql.py", line 143, in _hook
+    conn = BaseHook.get_connection(self.conn_id)
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/hooks/base.py", line 72, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/connection.py", line 463, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `db_sqlite` isn't defined
+[2024-02-06T17:03:37.851+0900] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=naver-search-pipeline, task_id=creating_table, execution_date=20240206T080335, start_date=20240206T080337, end_date=20240206T080337
+[2024-02-06T17:03:37.858+0900] {standard_task_runner.py:109} ERROR - Failed to execute job 5 for task creating_table (The conn_id `db_sqlite` isn't defined; 122894)
+[2024-02-06T17:03:37.883+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-02-06T17:03:37.889+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

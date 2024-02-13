@@ -1,0 +1,14 @@
+[2024-02-13T13:00:15.431+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.print_complete scheduled__2024-02-13T03:00:00+00:00 [queued]>
+[2024-02-13T13:00:15.434+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.print_complete scheduled__2024-02-13T03:00:00+00:00 [queued]>
+[2024-02-13T13:00:15.434+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-13T13:00:15.444+0900] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): print_complete> on 2024-02-13 03:00:00+00:00
+[2024-02-13T13:00:15.446+0900] {standard_task_runner.py:57} INFO - Started process 294948 to run task
+[2024-02-13T13:00:15.448+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'print_complete', 'scheduled__2024-02-13T03:00:00+00:00', '--job-id', '165', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmp3rg3x10c']
+[2024-02-13T13:00:15.448+0900] {standard_task_runner.py:85} INFO - Job 165: Subtask print_complete
+[2024-02-13T13:00:15.467+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.print_complete scheduled__2024-02-13T03:00:00+00:00 [running]> on host localhost
+[2024-02-13T13:00:15.501+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='print_complete' AIRFLOW_CTX_EXECUTION_DATE='2024-02-13T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-02-13T03:00:00+00:00'
+[2024-02-13T13:00:15.501+0900] {logging_mixin.py:150} INFO - 네이버 검색 DAG 완료
+[2024-02-13T13:00:15.501+0900] {python.py:183} INFO - Done. Returned value was: None
+[2024-02-13T13:00:15.504+0900] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=naver-search-pipeline, task_id=print_complete, execution_date=20240213T030000, start_date=20240213T040015, end_date=20240213T040015
+[2024-02-13T13:00:15.539+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-13T13:00:15.546+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

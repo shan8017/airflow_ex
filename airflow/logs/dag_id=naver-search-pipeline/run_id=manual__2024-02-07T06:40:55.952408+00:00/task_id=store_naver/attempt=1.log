@@ -1,0 +1,16 @@
+[2024-02-07T15:41:03.582+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: naver-search-pipeline.store_naver manual__2024-02-07T06:40:55.952408+00:00 [queued]>
+[2024-02-07T15:41:03.586+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: naver-search-pipeline.store_naver manual__2024-02-07T06:40:55.952408+00:00 [queued]>
+[2024-02-07T15:41:03.586+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-02-07T15:41:03.596+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): store_naver> on 2024-02-07 06:40:55.952408+00:00
+[2024-02-07T15:41:03.598+0900] {standard_task_runner.py:57} INFO - Started process 166052 to run task
+[2024-02-07T15:41:03.599+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'naver-search-pipeline', 'store_naver', 'manual__2024-02-07T06:40:55.952408+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/naver_search_pipeline.py', '--cfg-path', '/tmp/tmp82u0z9l8']
+[2024-02-07T15:41:03.600+0900] {standard_task_runner.py:85} INFO - Job 31: Subtask store_naver
+[2024-02-07T15:41:03.618+0900] {task_command.py:410} INFO - Running <TaskInstance: naver-search-pipeline.store_naver manual__2024-02-07T06:40:55.952408+00:00 [running]> on host localhost
+[2024-02-07T15:41:03.653+0900] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='naver-search-pipeline' AIRFLOW_CTX_TASK_ID='store_naver' AIRFLOW_CTX_EXECUTION_DATE='2024-02-07T06:40:55.952408+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-02-07T06:40:55.952408+00:00'
+[2024-02-07T15:41:03.654+0900] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-02-07T15:41:03.654+0900] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo -e ".separator ","\n.import /home/shan/airflow/dags/data/naver_processed_result.csv naver_search_result" | sqlite3 /home/shan/airflow/airflow.db']
+[2024-02-07T15:41:03.658+0900] {subprocess.py:86} INFO - Output:
+[2024-02-07T15:41:03.663+0900] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-02-07T15:41:03.675+0900] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=naver-search-pipeline, task_id=store_naver, execution_date=20240207T064055, start_date=20240207T064103, end_date=20240207T064103
+[2024-02-07T15:41:03.690+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-02-07T15:41:03.700+0900] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,499 @@
+[2024-02-06T17:42:21.325+0900] {processor.py:157} INFO - Started process (PID=127670) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:42:21.325+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:42:21.326+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:42:21.326+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:42:21.327+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:42:21.327+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:42:21.327+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:42:21.338+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.014 seconds
+[2024-02-06T17:43:00.930+0900] {processor.py:157} INFO - Started process (PID=127732) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:00.931+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:43:00.931+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:43:00.931+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:00.932+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:43:00.932+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:43:00.932+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:00.943+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.015 seconds
+[2024-02-06T17:43:31.955+0900] {processor.py:157} INFO - Started process (PID=127792) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:31.955+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:43:31.955+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:43:31.955+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:31.956+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:43:31.956+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:43:31.957+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:43:31.967+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.014 seconds
+[2024-02-06T17:44:03.176+0900] {processor.py:157} INFO - Started process (PID=127841) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:03.178+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:44:03.179+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:44:03.179+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:03.184+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:44:03.183+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:44:03.184+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:03.193+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.019 seconds
+[2024-02-06T17:44:37.424+0900] {processor.py:157} INFO - Started process (PID=127903) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:37.426+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:44:37.427+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:44:37.426+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:37.431+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:44:37.430+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:44:37.431+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:44:37.441+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.020 seconds
+[2024-02-06T17:45:08.912+0900] {processor.py:157} INFO - Started process (PID=127953) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:08.912+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:45:08.913+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:45:08.913+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:08.914+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:45:08.914+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:45:08.914+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:08.925+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.014 seconds
+[2024-02-06T17:45:42.039+0900] {processor.py:157} INFO - Started process (PID=128015) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:42.040+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:45:42.040+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:45:42.040+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:42.041+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:45:42.041+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:45:42.042+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:45:42.052+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.015 seconds
+[2024-02-06T17:46:28.243+0900] {processor.py:157} INFO - Started process (PID=128093) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:46:28.244+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:46:28.244+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:46:28.244+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:46:28.245+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:46:28.245+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:46:28.246+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:46:28.256+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.015 seconds
+[2024-02-06T17:47:01.330+0900] {processor.py:157} INFO - Started process (PID=128143) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:01.331+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:47:01.332+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:47:01.332+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:01.336+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:47:01.335+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:47:01.337+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:01.347+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.018 seconds
+[2024-02-06T17:47:44.259+0900] {processor.py:157} INFO - Started process (PID=128236) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:44.260+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:47:44.261+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:47:44.261+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:44.262+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:47:44.262+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:47:44.262+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:47:44.275+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.017 seconds
+[2024-02-06T17:48:18.905+0900] {processor.py:157} INFO - Started process (PID=128305) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:18.906+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:48:18.907+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:48:18.906+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:18.911+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:48:18.910+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:48:18.911+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:18.922+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.018 seconds
+[2024-02-06T17:48:49.290+0900] {processor.py:157} INFO - Started process (PID=128381) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:49.291+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:48:49.292+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:48:49.292+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:49.293+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:48:49.292+0900] {dagbag.py:350} ERROR - Failed to import: /home/shan/airflow/dags/preprocess/naver_preprocess.py
+Traceback (most recent call last):
+  File "/home/shan/anaconda3/envs/airflow_env/lib/python3.7/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/shan/airflow/dags/preprocess/naver_preprocess.py", line 17
+    ])
+    ^
+SyntaxError: invalid syntax
+[2024-02-06T17:48:49.293+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:48:49.305+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.017 seconds
+[2024-02-06T17:49:03.190+0900] {processor.py:157} INFO - Started process (PID=128396) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:03.190+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:49:03.190+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:49:03.190+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:03.330+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:03.338+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.150 seconds
+[2024-02-06T17:49:47.169+0900] {processor.py:157} INFO - Started process (PID=128503) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:47.171+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:49:47.172+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:49:47.171+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:47.314+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:49:47.318+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.150 seconds
+[2024-02-06T17:50:19.374+0900] {processor.py:157} INFO - Started process (PID=128585) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:19.375+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:50:19.376+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:50:19.376+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:19.516+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:19.520+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.147 seconds
+[2024-02-06T17:50:52.425+0900] {processor.py:157} INFO - Started process (PID=128673) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:52.425+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:50:52.426+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:50:52.426+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:52.565+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:50:52.569+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.145 seconds
+[2024-02-06T17:51:27.031+0900] {processor.py:157} INFO - Started process (PID=128766) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:51:27.033+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:51:27.033+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:51:27.033+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:51:27.181+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:51:27.186+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.158 seconds
+[2024-02-06T17:52:03.393+0900] {processor.py:157} INFO - Started process (PID=128849) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:03.394+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:52:03.396+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:52:03.395+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:03.538+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:03.542+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.150 seconds
+[2024-02-06T17:52:38.314+0900] {processor.py:157} INFO - Started process (PID=128941) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:38.316+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:52:38.316+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:52:38.316+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:38.459+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:52:38.463+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.150 seconds
+[2024-02-06T17:53:10.464+0900] {processor.py:157} INFO - Started process (PID=129022) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:10.465+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:53:10.466+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:53:10.465+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:10.658+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:10.661+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T17:53:53.227+0900] {processor.py:157} INFO - Started process (PID=129127) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:53.229+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:53:53.230+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:53:53.229+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:53.422+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:53:53.425+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T17:54:26.387+0900] {processor.py:157} INFO - Started process (PID=129218) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:54:26.389+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:54:26.390+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:54:26.390+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:54:26.581+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:54:26.584+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T17:55:00.182+0900] {processor.py:157} INFO - Started process (PID=129298) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:00.184+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:55:00.185+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:55:00.184+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:00.377+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:00.380+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T17:55:34.983+0900] {processor.py:157} INFO - Started process (PID=129394) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:34.985+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:55:34.985+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:55:34.985+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:35.176+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:55:35.179+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T17:56:11.318+0900] {processor.py:157} INFO - Started process (PID=129477) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:11.320+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:56:11.321+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:56:11.321+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:11.513+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:11.516+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.201 seconds
+[2024-02-06T17:56:45.034+0900] {processor.py:157} INFO - Started process (PID=129572) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:45.035+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:56:45.036+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:56:45.035+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:45.227+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:56:45.230+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T17:57:21.063+0900] {processor.py:157} INFO - Started process (PID=129656) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:21.065+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:57:21.067+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:57:21.066+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:21.258+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:21.261+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T17:57:54.494+0900] {processor.py:157} INFO - Started process (PID=129746) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:54.495+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:57:54.495+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:57:54.495+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:54.684+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:57:54.687+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.195 seconds
+[2024-02-06T17:58:26.578+0900] {processor.py:157} INFO - Started process (PID=129838) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:58:26.578+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:58:26.580+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:58:26.579+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:58:26.768+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:58:26.770+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.194 seconds
+[2024-02-06T17:59:00.900+0900] {processor.py:157} INFO - Started process (PID=129919) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:00.901+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:59:00.901+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:59:00.901+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:01.089+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:01.092+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.194 seconds
+[2024-02-06T17:59:34.806+0900] {processor.py:157} INFO - Started process (PID=130012) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:34.807+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T17:59:34.807+0900] {logging_mixin.py:150} INFO - [2024-02-06T17:59:34.807+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:34.999+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T17:59:35.002+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:00:10.765+0900] {processor.py:157} INFO - Started process (PID=130095) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:10.766+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:00:10.766+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:00:10.766+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:10.958+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:10.961+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:00:44.975+0900] {processor.py:157} INFO - Started process (PID=130173) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:44.977+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:00:44.977+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:00:44.977+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:45.168+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:00:45.171+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:01:16.184+0900] {processor.py:157} INFO - Started process (PID=130248) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:16.185+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:01:16.186+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:01:16.185+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:16.378+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:16.381+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:01:46.669+0900] {processor.py:157} INFO - Started process (PID=130310) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:46.669+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:01:46.669+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:01:46.669+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:46.859+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:01:46.862+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.195 seconds
+[2024-02-06T18:02:18.131+0900] {processor.py:157} INFO - Started process (PID=130375) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:18.134+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:02:18.136+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:02:18.135+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:18.332+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:18.335+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.208 seconds
+[2024-02-06T18:02:49.153+0900] {processor.py:157} INFO - Started process (PID=130450) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:49.154+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:02:49.156+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:02:49.155+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:49.347+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:02:49.350+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:03:21.213+0900] {processor.py:157} INFO - Started process (PID=130517) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:21.214+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:03:21.215+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:03:21.215+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:21.406+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:21.409+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:03:55.598+0900] {processor.py:157} INFO - Started process (PID=130606) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:55.599+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:03:55.600+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:03:55.600+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:55.790+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:03:55.793+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:04:28.172+0900] {processor.py:157} INFO - Started process (PID=130698) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:04:28.174+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:04:28.174+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:04:28.174+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:04:28.364+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:04:28.367+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.196 seconds
+[2024-02-06T18:05:01.677+0900] {processor.py:157} INFO - Started process (PID=130780) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:01.679+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:05:01.680+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:05:01.679+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:01.871+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:01.874+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T18:05:35.816+0900] {processor.py:157} INFO - Started process (PID=130872) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:35.818+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:05:35.818+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:05:35.818+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:36.010+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:05:36.013+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:06:10.019+0900] {processor.py:157} INFO - Started process (PID=130954) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:10.021+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:06:10.022+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:06:10.022+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:10.217+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:10.220+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.205 seconds
+[2024-02-06T18:06:41.895+0900] {processor.py:157} INFO - Started process (PID=131045) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:41.896+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:06:41.896+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:06:41.896+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:42.089+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:06:42.092+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:07:14.939+0900] {processor.py:157} INFO - Started process (PID=131124) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:14.939+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:07:14.940+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:07:14.940+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:15.130+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:15.133+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.196 seconds
+[2024-02-06T18:07:47.187+0900] {processor.py:157} INFO - Started process (PID=131218) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:47.189+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:07:47.191+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:07:47.190+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:47.387+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:07:47.390+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.205 seconds
+[2024-02-06T18:08:21.062+0900] {processor.py:157} INFO - Started process (PID=131307) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:21.065+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:08:21.066+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:08:21.066+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:21.266+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:21.269+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.211 seconds
+[2024-02-06T18:08:55.693+0900] {processor.py:157} INFO - Started process (PID=131397) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:55.694+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:08:55.694+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:08:55.694+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:55.884+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:08:55.886+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.195 seconds
+[2024-02-06T18:09:30.117+0900] {processor.py:157} INFO - Started process (PID=131488) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:09:30.118+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:09:30.120+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:09:30.119+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:09:30.314+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:09:30.317+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.202 seconds
+[2024-02-06T18:10:03.341+0900] {processor.py:157} INFO - Started process (PID=131569) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:03.342+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:10:03.343+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:10:03.343+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:03.534+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:03.537+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:10:37.334+0900] {processor.py:157} INFO - Started process (PID=131662) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:37.334+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:10:37.335+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:10:37.335+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:37.525+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:10:37.528+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.195 seconds
+[2024-02-06T18:11:13.045+0900] {processor.py:157} INFO - Started process (PID=131744) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:13.047+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:11:13.048+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:11:13.048+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:13.240+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:13.243+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.201 seconds
+[2024-02-06T18:11:48.363+0900] {processor.py:157} INFO - Started process (PID=131838) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:48.365+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:11:48.365+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:11:48.365+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:48.556+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:11:48.559+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
+[2024-02-06T18:12:22.346+0900] {processor.py:157} INFO - Started process (PID=131924) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:22.347+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:12:22.347+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:12:22.347+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:22.537+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:22.540+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.196 seconds
+[2024-02-06T18:12:55.554+0900] {processor.py:157} INFO - Started process (PID=132011) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:55.554+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:12:55.555+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:12:55.555+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:55.746+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:12:55.749+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.196 seconds
+[2024-02-06T18:13:29.489+0900] {processor.py:157} INFO - Started process (PID=132102) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:13:29.491+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:13:29.492+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:13:29.492+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:13:29.684+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:13:29.686+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:14:02.607+0900] {processor.py:157} INFO - Started process (PID=132183) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:02.608+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:14:02.609+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:14:02.609+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:02.799+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:02.802+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:14:35.175+0900] {processor.py:157} INFO - Started process (PID=132273) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:35.177+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:14:35.177+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:14:35.177+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:35.376+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:14:35.379+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.207 seconds
+[2024-02-06T18:15:08.356+0900] {processor.py:157} INFO - Started process (PID=132354) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:08.358+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:15:08.359+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:15:08.358+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:08.553+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:08.556+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.200 seconds
+[2024-02-06T18:15:42.065+0900] {processor.py:157} INFO - Started process (PID=132448) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:42.066+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:15:42.066+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:15:42.066+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:42.261+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:15:42.264+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.203 seconds
+[2024-02-06T18:16:15.201+0900] {processor.py:157} INFO - Started process (PID=132527) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:16:15.202+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:16:15.202+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:16:15.202+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:16:15.395+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:16:15.398+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T18:16:59.850+0900] {processor.py:157} INFO - Started process (PID=132633) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:16:59.851+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:16:59.852+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:16:59.852+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:17:00.046+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:17:00.049+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.200 seconds
+[2024-02-06T18:17:36.255+0900] {processor.py:157} INFO - Started process (PID=132727) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:17:36.256+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:17:36.257+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:17:36.257+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:17:36.451+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:17:36.454+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.200 seconds
+[2024-02-06T18:18:08.066+0900] {processor.py:157} INFO - Started process (PID=132806) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:08.067+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:18:08.068+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:18:08.068+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:08.260+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:08.263+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:18:42.887+0900] {processor.py:157} INFO - Started process (PID=132899) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:42.888+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:18:42.890+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:18:42.889+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:43.083+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:18:43.086+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.200 seconds
+[2024-02-06T18:19:17.950+0900] {processor.py:157} INFO - Started process (PID=132981) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:19:17.951+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:19:17.951+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:19:17.951+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:19:18.144+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:19:18.147+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T18:20:03.057+0900] {processor.py:157} INFO - Started process (PID=133088) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:03.058+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:20:03.058+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:20:03.058+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:03.251+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:03.254+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T18:20:39.126+0900] {processor.py:157} INFO - Started process (PID=133181) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:39.128+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:20:39.128+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:20:39.128+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:39.321+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:20:39.324+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.199 seconds
+[2024-02-06T18:21:12.165+0900] {processor.py:157} INFO - Started process (PID=133263) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:12.166+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:21:12.167+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:21:12.167+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:12.359+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:12.362+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.198 seconds
+[2024-02-06T18:21:49.357+0900] {processor.py:157} INFO - Started process (PID=133358) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:49.359+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:21:49.359+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:21:49.359+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:49.553+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:21:49.557+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.200 seconds
+[2024-02-06T18:22:22.730+0900] {processor.py:157} INFO - Started process (PID=133444) to work on /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:22:22.732+0900] {processor.py:826} INFO - Processing file /home/shan/airflow/dags/preprocess/naver_preprocess.py for tasks to queue
+[2024-02-06T18:22:22.732+0900] {logging_mixin.py:150} INFO - [2024-02-06T18:22:22.732+0900] {dagbag.py:541} INFO - Filling up the DagBag from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:22:22.923+0900] {processor.py:838} WARNING - No viable dags retrieved from /home/shan/airflow/dags/preprocess/naver_preprocess.py
+[2024-02-06T18:22:22.926+0900] {processor.py:179} INFO - Processing /home/shan/airflow/dags/preprocess/naver_preprocess.py took 0.197 seconds
